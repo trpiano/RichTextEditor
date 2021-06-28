@@ -2,6 +2,7 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components'
 
 import Header from './components/header/index'
+import TextEditor from './components/texteditor';
 import usePersistedState from './utils/usePersistedState';
 
 import GlobalStyle from './styles/global'
@@ -24,6 +25,7 @@ function App() {
         <GlobalStyle />
 
         <Header toggleTheme={toggleTheme} />
+        <TextEditor />
       </div>
     </ThemeProvider>
   );

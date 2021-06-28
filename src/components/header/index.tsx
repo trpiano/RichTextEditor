@@ -17,7 +17,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
     return (
         <Container>
             
-            Hello World!
+            <h1>Rich Text</h1>
         
             <Switch 
                 onChange={toggleTheme}
@@ -30,6 +30,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 offColor={shade(0.15, colors.primary)}
                 onColor={colors.secundary}
             />
+            
         </Container>
     )
 }
