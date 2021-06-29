@@ -5,13 +5,18 @@ export default {
 
     colors:{
         primary: '#222',
-        secundary: '#208b3a',
+        switch: '#208b3a',
 
         background: '#2b2d42',
         text: '#fff',
+    
+        //Tool Bar Style
+        toolbar_background: '#2b2d42',
+        toolbar_border: '#11121c',
+        toolbar_text: '#000',
 
-        toolbar: {
-            background: '#2b2d42',
-        },
+        //Wrapper Style
+        wrapper_border_color: '#2b2d42',
+        wrapper_text: '#fff',
     }
 }
