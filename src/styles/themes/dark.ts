@@ -9,5 +9,9 @@ export default {
 
         background: '#2b2d42',
         text: '#fff',
+
+        toolbar: {
+            background: '#2b2d42',
+        },
     }
 }

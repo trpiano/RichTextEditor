@@ -11,6 +11,10 @@ declare module 'styled-components' {
 
             background: string;
             text: string;
+
+            toolbar: {
+                background: string,
+            },
         }
     }
 }

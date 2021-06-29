@@ -17,7 +17,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
     return (
         <Container>
             
-            <h1>Rich Text</h1>
+            <h1>Rich Text Editor</h1>
         
             <Switch 
                 onChange={toggleTheme}
