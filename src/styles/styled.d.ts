@@ -7,10 +7,19 @@ declare module 'styled-components' {
 
         colors: {
             primary: string;
-            secundary: string;
+            switch: string;
 
             background: string;
             text: string;
+
+            //Tool Bar Style
+            toolbar_background: string;
+            toolbar_border: string;
+            toolbar_text: string;
+
+            //Wrapper Style
+            wrapper_border_color: string;
+            wrapper_text: string;
         }
     }
 }

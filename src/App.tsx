@@ -2,7 +2,8 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components'
 
 import Header from './components/header/index'
-import usePersistedState from './utils/usePersistedState';
+import TextEditor from './components/texteditor';
+import usePersistedState from './hooks/usePersistedState';
 
 import GlobalStyle from './styles/global'
 
@@ -14,7 +15,7 @@ function App() {
 
   const [ theme, setTheme ] = usePersistedState('theme', light)
 
-  const toggleTheme= ( ) => {
+  const toggleTheme = ( ) => {
     setTheme(theme.title === 'light' ? dark : light);
   }
 
@@ -24,6 +25,7 @@ function App() {
         <GlobalStyle />
 
         <Header toggleTheme={toggleTheme} />
+        <TextEditor />
       </div>
     </ThemeProvider>
   );

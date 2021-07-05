@@ -5,9 +5,17 @@ export default {
 
     colors:{
         primary: '#bc4749',
-        secundary: '#d63af9',
+        switch: '#d63af9',
 
         background: '#f5f5f5',
         text: '#333',
+        
+        toolbar_background: '#f5f5f5',
+        toolbar_border: '#f5f5f5',
+        toolbar_text: '#333',
+
+        wrapper_border_color: '#f5f5f5',
+        wrapper_text: '#333',
+
     }
 }
