@@ -20,7 +20,7 @@ function usePersistedState<T>(key: string, initialState: T): Response<T> {
         localStorage.setItem(key, JSON.stringify(state))
     }, [key, state]);
 
-    return [ state, setState];
+    return [ state, setState ];
 }
 
 export default usePersistedState;

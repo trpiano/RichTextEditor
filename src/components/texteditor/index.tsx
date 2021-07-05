@@ -7,7 +7,9 @@ import { EditorState, convertToRaw } from 'draft-js';
 // Styles Import
 import { Container } from './styles'
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
-export default class TextEditor extends Component {
+
+class TextEditor extends Component {
+
     state = {
         editorState: EditorState.createEmpty(),
     };
@@ -34,4 +36,6 @@ export default class TextEditor extends Component {
             </Container>
         )
     }
-}
+}   
+
+export default TextEditor;

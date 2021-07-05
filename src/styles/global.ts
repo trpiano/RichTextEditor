@@ -8,10 +8,6 @@ export default createGlobalStyle`
         box-sizing: border-box;
     }
 
-    :root{
-        --red-300: ${props => props.theme.colors.primary};
-    }
-
     @media (max-width: 1080px) {
         html {
             font-size: 93.17%;
