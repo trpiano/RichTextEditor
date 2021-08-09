@@ -22,7 +22,6 @@ class TextEditor extends Component {
 
     render() {
         const { editorState } = this.state;
-        console.log(draftToHtml(convertToRaw(editorState.getCurrentContent())));
 
         return(
             <Container>
@@ -33,6 +32,12 @@ class TextEditor extends Component {
                     editorClassName="editor"
                     onEditorStateChange={this.onEditorStateChange}
                 />
+                <textarea
+                    disabled
+                    value={draftToHtml(convertToRaw(editorState.getCurrentContent()))}
+                >
+
+                </textarea>
             </Container>
         )
     }

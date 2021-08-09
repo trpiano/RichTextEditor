@@ -17,4 +17,11 @@ align-items: center;
         color: ${props => props.theme.colors.wrapper_text};
         border-color: ${props => props.theme.colors.wrapper_border_color};
     }
+
+    textarea {
+        background: ${props => props.theme.colors.primary};
+        color: ${props => props.theme.colors.text};
+        height: 100%;
+        resize: none;
+    }
 `
