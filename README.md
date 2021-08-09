@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./src/assets/logo.png" alt="RichTextEditor" />
+  <img src="./src/assets/logo.png" alt="RichTextEditor" width="100px"/>
 </div>
 
 <hr/>
